@@ -35,7 +35,6 @@ nav a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
 }
 
 .product-card {
@@ -53,7 +52,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.product-card h2 {
+.product-card h3 {
     font-size: 20px;
     margin: 15px 0 10px;
 }
@@ -77,3 +76,51 @@ nav a:hover {
 .product-card button:hover {
     background-color: #005bb5;
 }
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #005bb5;
+}
+/* footer */
+footer {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  /* footer section */
+  footer section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  /* footer h3 */
+  footer h3 {
+    margin-top: 0;
+  }
+  /* footer a */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /*  */
+  .skills{
+    color: pink;
+  }
